@@ -1,0 +1,28 @@
+Tugas individu .percobaan 1
+Nama	: Imam Soleh Sallahuddin
+Nim	: F1B021123
+Kelompok 4
+Aplikasi pencari kata dalam text
+
+
+import java.util.Scanner;
+
+public class PencariKata {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Masukkan teks: ");
+        String teks = scanner.nextLine();
+
+        System.out.print("Masukkan kata yang ingin dicari: ");
+        String kataCari = scanner.nextLine();
+
+        if (teks.contains(kataCari)) {
+            System.out.println("Kata ditemukan dalam teks.");
+        } else {
+            System.out.println("Kata tidak ditemukan dalam teks.");
+        }
+
+        scanner.close();
+    }
+}
