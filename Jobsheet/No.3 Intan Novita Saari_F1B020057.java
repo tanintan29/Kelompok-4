@@ -31,7 +31,7 @@ public class JSNO3{
         System.out.println("Informasi Ponsel Samsung:");
         a.tampilkan();
 
-        System.out.println("\nInformasi Ponsel iPad:");
+        System.out.println("\nInformasi Ponsel iPhone:");
         b.tampilkan();
     }
 }
